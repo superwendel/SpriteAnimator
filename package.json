@@ -1,0 +1,9 @@
+{
+  "name": "com.reversegravity.spriteanimator",
+  "version": "1.0.0",
+  "unity": "2021.2",
+  "displayName": "Reverse Gravity Sprite Animator",
+  "description": "Sprite animator for Unity animations for a better view then the default dope sheet.",
+  "category": "2D",
+  "hideInEditor": false
+}
