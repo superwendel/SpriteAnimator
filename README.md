@@ -1,37 +1,23 @@
-# Framework
+# Sprite Animator
+An added window view in Unity's editor for a better experience for editing Unity animations. Designed with pixel art specifically in mind.
+![SpriteAnimator2](https://user-images.githubusercontent.com/21694868/189197019-e25b8ddf-432b-4330-b1e6-d465dcdfd7f2.gif)
 
-It is traditional for the creator to magnanimously accept the blame for whatever deficiencies remain. I don’t. Any errors, deficiencies, or problems in this package are somebody else’s fault, but I would appreciate knowing about them so as to determine who is to blame.
+(Incredible pixel art credit: Seliel The Shaper https://seliel-the-shaper.itch.io/
 
-# Integration Guide
+vs Unity's default dope sheet. Pretty uninspiring to work with if you ask me.
 
-NOTE: I recommend setting this up before the package manager install as the Character and Enemy scripts will want to serialize with the layers below.
+![SpriteDopeSheet](https://user-images.githubusercontent.com/21694868/189195548-1011cb55-9b96-4c1e-bcff-f7083fc41452.jpg)
 
-If possible, set up these layers in these spots. The raycasts specifically cycles through these layers and only these layers (fine tuned in layer masks for Characters/Enemies). It can, of course be extended or changed, but as it is this what's supported:
+# Features:
+- A much improved view for sprites, with an emphasis on pixel art.
+- Copy and paste, duplicate, insert, and delete are supported on the custom timeline.
+- Space bar control.
+- Custom color background. Optional checkerboard pattern.
+- Preview speeds.
+- Preview zoom.
 
-6. Passthrough
-7. Character
-8. EnemyHazard
-9. GeometryAlternate
-10. FXPhysics
-11. CharacterProjectile
-12. CollectableProjectile
+# Installation
+SpriteAnimator is one script and can be placed in any Editor folder or it can be installed as a package with this repository. Once installed, to access, select Window in the Editor and Sprite Animator will be there. Choose any Unity animation file to get to work.
 
-"Default" and "Water" are in the collision calculations while skipping the other Unity built ins. Otherwise, all other layers outside of Framework (such as art effects) should be 13 and beyond.
-
-Only 1 tag is used which is WallSlide which is an optional tag (if all walls aren't supported and want to target just specific spots/wall types/etc.) 
-
-Change over to the OLD Input Manager (Project Settings -> Player -> Other Settings : Active Input Handling) I recommend copying over InputManager.asset (this goes in ProjectSettings folder). Message me if I forget to upload to Discord.
-
-Physics 2D Settings (Edit-> Project Settings): 
-
-:ballot_box_with_check: : Queries Start In Colliders
-
-:ballot_box_with_check: : Auto Sync Transforms
-
-CollisionMatrix is as follows:
-
-![image](https://user-images.githubusercontent.com/21694868/169628590-7416c94a-d459-46e5-bdac-971bee0e945f.png)
-
-In Package Manager, don't forget to import the samples to gain access to the Prototype scene examples.
-
-![image](https://user-images.githubusercontent.com/21694868/169628785-630a0898-b7a5-4927-8e5c-4fd7ca3e3f49.png)
+# Additional notes
+While it is traditional for the creator to magnanimously accept the blame for whatever deficiencies remain. I don’t. Any errors, deficiencies, or problems in this package are somebody else’s fault, but I would appreciate knowing about them so as to determine who is to blame.
