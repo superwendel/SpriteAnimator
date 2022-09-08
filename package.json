@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "unity": "2021.2",
   "displayName": "Reverse Gravity Sprite Animator",
-  "description": "Sprite animator for Unity animations for a better view then the default dope sheet.",
+  "description": "An added window view in Unity's editor for a better experience for editing Unity animations. Designed with pixel art specifically in mind.",
   "category": "2D",
   "hideInEditor": false
 }
