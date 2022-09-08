@@ -1,5 +1,6 @@
 # Sprite Animator
 An added window view in Unity's editor for a better experience for editing Unity animations. Designed with pixel art specifically in mind.
+
 ![SpriteAnimator2](https://user-images.githubusercontent.com/21694868/189197019-e25b8ddf-432b-4330-b1e6-d465dcdfd7f2.gif)
 
 (Incredible pixel art credit: Seliel The Shaper https://seliel-the-shaper.itch.io/
