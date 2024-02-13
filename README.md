@@ -22,3 +22,5 @@ SpriteAnimator is one script and can be placed in any Editor folder or it can be
 
 # Additional notes
 While it is traditional for the creator to magnanimously accept the blame for whatever deficiencies remain. I don’t. Any errors, deficiencies, or problems in this package are somebody else’s fault, but I would appreciate knowing about them so as to determine who is to blame.
+
+I've since moved on from Unity (I believe everyone should) but I wanted to post this in case it helps anyone in any way. The last version this was tested and developed with was Unity 2021.3.0f1. It's possible Unity has broken something in older builds.
